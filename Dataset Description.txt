@@ -1,0 +1,9 @@
+About this dataset
+With the rise of crypto currency markets the interest in creating automated trading strategies, or trading bots, has grown. Developing algorithmic trading strategies however requires intensive backtesting to ensure profitable performance. It follows that access to high resolution historical trading data is the foundation of every successful algorithmic trading strategy. This dataset therefore provides open, high, low, close (OHLC) data at 1 minute resolution of various crypto currency pairs for the development of automated trading systems.
+
+Content
+This dataset contains the historical trading data (OHLC) of more than 400 trading pairs at 1 minute resolution reaching back until the year 2013. It was collected from the Bitfinex exchange as described in this article.
+The data in the CSV files is the raw output of the Bitfinex API. This means, there are no timestamps for time periods in which the exchange was down. Also if there were time periods without any activity or trades there will be no timestamp as well.
+
+Inspiration
+This dataset is intended to facilitate the development of automatic trading strategies. Machine learning algorithms, as they are available through various open source libraries these days, typically require large amounts of training data to unveil their full power. Also the process of backtesting new strategies before deploying them rests on high quality data. Most crypto trading datasets that are currently available either have low temporal resolution, are not free of charge or focus only on a limited number of currency pairs. This dataset on the other hand provides high temporal resolution data of more than 400 currency pairs for the development of new trading algorithms.
