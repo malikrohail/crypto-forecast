@@ -18,6 +18,16 @@ process and easy to use.
 # d. Streamlit
 Streamlit is an open-source python framework for building web apps for Machine Learning and Data Science. We can instantly develop web apps and deploy them easily using Streamlit. Streamlit allows you to write an app the same way you write a python code. Streamlit makes it seamless to work on the interactive loop of coding and viewing results in the web app.
 
+
+
+
+The results so far are somewhat promising. The validation accuracy of the network is just above 70 after adding a couple more indicators and ensuring an equal amount of training labels. This can be helpful in market analysis but cannot be used for automated trading due to false positives and network error. Adding features and have better training data should improve the model but it can get really difficult because global news plays a pivotal factor in terms of crypto market pricing so it really gets difficult to be accurate most of the time.
+
+
+
+
+
+
 Workflow overview from the user side:
 1. User will input/enter a keyword
 2. Visualization of profits is made on the landing page
