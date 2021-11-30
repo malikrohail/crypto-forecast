@@ -25,3 +25,9 @@ Streamlit is an open-source python framework for building web apps for Machine L
 # Result
 The results so far are somewhat promising. The validation accuracy of the network is just above 70 after adding a couple more indicators and ensuring an equal amount of training labels. This can be helpful in market analysis but cannot be used for automated trading due to false positives and network error. Adding features and have better training data should improve the model but it can get really difficult because global news plays a pivotal factor in terms of crypto market pricing so it really gets difficult to be accurate most of the time.
 
+# References
+1. https://awesomeopensource.com/project/guptarohit/cryptoCMD
+2. https://plotly.com/python/text-and-annotations/
+3. https://streamlit.io/
+4. https://facebook.github.io/prophet/
+
