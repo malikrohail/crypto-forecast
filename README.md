@@ -1,33 +1,31 @@
-# crypto-forecast
+# Crypto-Forecast
 
-Link: https://www.youtube.com/watch?v=UrQdV2LW-a0
+## Overview
+The Crypto-Forecast application is designed to predict the future value of any cryptocurrency listed on [Coinmarketcap.com](https://coinmarketcap.com/). It utilizes Streamlit for the front-end interface, and the Facebook Prophet model for robust forecasting capabilities. This advanced model was developed by Facebook and is known for its efficiency and ease of use.
 
-This model enables you to predict on the future value of any cryptocurrency (available on Coinmarketcap.com), for any number of days into the future! The application is built with Streamlit (the front-end) and the Facebook Prophet model, which is an advanced open-source forecasting model built by Facebook, running under the hood. You can select to train the model on either all available data or a pre-set date range. Finally, you can plot the prediction results on both a normal and log scale.
+[Watch Demo Video](https://www.youtube.com/watch?v=UrQdV2LW-a0)
 
-# Libraries Used
-# a. Cryptocmd
-Cryptocmd is a very useful open source for the retrieval of crypto coin
-datasets based on https://coinmarketcap.com/
+Users can train the model on all available data or limit the training to a specific date range. Predictions can be displayed on standard or logarithmic scales to accommodate different analysis needs.
 
-# b. Plotly
-Plotly allows users to import, copy and paste, or stream data to be analyzed and visualized. For analysis and styling graphs, Plotly offers a Python sandbox (NumPy supported), Datagrid, and GUI. Python scripts can be saved, shared, and collaboratively edited in Plotly.
+## Libraries Used
 
-# c. Fbprophet
-Fbprophet is an open-source that we use to create a model to predict
-the price of a crypto coin because the model is fast in the computational
-process and easy to use.
+### Cryptocmd
+Cryptocmd facilitates the retrieval of cryptocurrency datasets, leveraging data from [Coinmarketcap](https://coinmarketcap.com/). It's an essential tool for accessing historical crypto coin data.
 
-# d. Streamlit
-Streamlit is an open-source python framework for building web apps for Machine Learning and Data Science. We can instantly develop web apps and deploy them easily using Streamlit. Streamlit allows you to write an app the same way you write a python code. Streamlit makes it seamless to work on the interactive loop of coding and viewing results in the web app.
+### Plotly
+Plotly is a versatile library that supports data importation and visualization. It provides a Python environment for data analysis, a Datagrid for data manipulation, and a GUI for graph styling. Plotly's collaborative platform allows for the sharing and editing of Python scripts.
 
+### Fbprophet
+Fbprophet, developed by Facebook, is utilized for its rapid computational capabilities and user-friendly interface. It's the core of our predictive model, helping to forecast crypto coin prices effectively.
 
+### Streamlit
+Streamlit is a powerful framework for building web applications tailored to Machine Learning and Data Science. It simplifies the deployment process and offers a seamless coding experience. Coding and viewing the results are as straightforward as writing regular Python scripts.
 
-# Result
-The results so far are somewhat promising. The validation accuracy of the network is just above 70 after adding a couple more indicators and ensuring an equal amount of training labels. This can be helpful in market analysis but cannot be used for automated trading due to false positives and network error. Adding features and have better training data should improve the model but it can get really difficult because global news plays a pivotal factor in terms of crypto market pricing so it really gets difficult to be accurate most of the time.
+## Result
+The model's validation accuracy has reached just above 70% after fine-tuning with additional indicators and balancing training labels. While the results are promising for market analysis, they are not yet reliable for automated trading due to the potential for false positives and network errors. Enhancing the model with more features and better training data may lead to improvements. However, predicting the volatile crypto market remains challenging due to the significant impact of global news on pricing.
 
-# References
-1. https://awesomeopensource.com/project/guptarohit/cryptoCMD
-2. https://plotly.com/python/text-and-annotations/
-3. https://streamlit.io/
-4. https://facebook.github.io/prophet/
-
+## References
+1. [CryptoCMD on Awesome Open Source](https://awesomeopensource.com/project/guptarohit/cryptoCMD)
+2. [Plotly Text & Annotations](https://plotly.com/python/text-and-annotations/)
+3. [Streamlit Official Site](https://streamlit.io/)
+4. [Facebook Prophet Documentation](https://facebook.github.io/prophet/)
